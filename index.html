@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manan Restaurant | Fine Dining Experience</title>
+    <meta name="description" content="Experience exceptional fine dining at Manan. Discover our chef's special creations, elegant ambiance, and unforgettable culinary journey.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="#home">Manan</a>
+            </div>
+            
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#dining" class="nav-link">Dining</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="mobile-nav">
+                <button class="menu-btn" aria-label="Menu">
+                    <span class="menu-icon"></span>
+                    <span class="menu-icon"></span>
+                    <span class="menu-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <div class="mobile-menu-header">
+                <div class="logo">Manan</div>
+                <button class="close-btn" aria-label="Close Menu">
+                    <span class="close-icon"></span>
+                </button>
+            </div>
+            <nav class="mobile-nav-links">
+                <ul>
+                    <li><a href="#home" class="mobile-link">Home</a></li>
+                    <li><a href="#about" class="mobile-link">About</a></li>
+                    <li><a href="#dining" class="mobile-link">Dining</a></li>
+                    <li><a href="#menu" class="mobile-link">Menu</a></li>
+                    <li><a href="#gallery" class="mobile-link">Gallery</a></li>
+                    <li><a href="#contact" class="mobile-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="overlay"></div>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Manan</h1>
+            <p class="hero-subtitle">A Culinary Journey of Excellence</p>
+            <button class="btn-primary">Reserve Your Table</button>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2>Welcome to Manan</h2>
+            <p class="about-text">At Manan, we believe in creating extraordinary dining experiences that combine innovative cuisine with timeless elegance. Our passionate team of culinary artists crafts each dish with precision and creativity, using the finest seasonal ingredients.</p>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Fine Dining</h3>
+                    <p>Exceptional cuisine crafted with passion</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-wine-glass-alt"></i>
+                    <h3>Wine Selection</h3>
+                    <p>Curated collection of premium wines</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-concierge-bell"></i>
+                    <h3>Expert Service</h3>
+                    <p>Attentive and professional staff</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-categories">
+            <div class="menu-category">
+                <img src="images/pan-fried-duck.webp" alt="Signature Dishes">
+                <h3>Signature Dishes</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h4>Pan-Seared Duck Breast</h4>
+                        <p>With cherry reduction, roasted vegetables</p>
+                        <span class="price">$38</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Lobster Thermidor</h4>
+                        <p>Fresh lobster in creamy sauce, gratinéed</p>
+                        <span class="price">$45</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Wagyu Beef Tenderloin</h4>
+                        <p>With truffle mashed potatoes, seasonal vegetables</p>
+                        <span class="price">$52</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-category">
+                <img src="images/delicious-meal.webp" alt="Main Course">
+                <h3>Main Course</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h4>Grilled Salmon</h4>
+                        <p>With lemon butter sauce, asparagus</p>
+                        <span class="price">$32</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Chicken Supreme</h4>
+                        <p>With wild mushroom sauce, seasonal vegetables</p>
+                        <span class="price">$28</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Vegetable Risotto</h4>
+                        <p>With seasonal vegetables, parmesan</p>
+                        <span class="price">$24</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-category">
+                <img src="images/restaurant-plates.webp" alt="Desserts">
+                <h3>Desserts</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h4>Chocolate Soufflé</h4>
+                        <p>With vanilla ice cream</p>
+                        <span class="price">$12</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Crème Brûlée</h4>
+                        <p>With fresh berries</p>
+                        <span class="price">$10</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Seasonal Fruit Tart</h4>
+                        <p>With whipped cream</p>
+                        <span class="price">$11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn-secondary">View Full Menu</button>
+    </section>
+
+    <section id="dining" class="dining-room">
+        <h2>Reserve Your Experience</h2>
+        <p class="dining-description">Join us for an unforgettable dining experience at Manan</p>
+        <div class="booking-form">
+            <select name="guests" required>
+                <option value="">Number of Guests</option>
+            </select>
+            <input type="date" name="date" required>
+            <select name="time" required>
+                <option value="">Select Time</option>
+            </select>
+            <button class="btn-primary">Book a Table</button>
+        </div>
+    </section>
+
+    <section id="spaces" class="dining-spaces">
+        <h2>Our Dining Spaces</h2>
+        <p class="spaces-description">Discover our unique dining environments, each offering a distinctive atmosphere for your special occasions</p>
+        <div class="space-grid">
+            <div class="space-item kitchen">
+                <img src="images/chef-adriannes-1440x900.webp" alt="The Kitchen Table - Chef's Special Area">
+                <h3>The Kitchen Table</h3>
+                <p class="space-description">An intimate dining experience with a view of our master chefs at work</p>
+            </div>
+            <div class="space-item gallery">
+                <img src="images/cozy-restaurant-for-gathering-with-friends.webp" alt="The Gallery - Main Dining Area">
+                <h3>The Gallery</h3>
+                <p class="space-description">Our elegant main dining room, perfect for memorable evenings</p>
+            </div>
+            <div class="space-item salon">
+                <img src="images/stylish-outdoor-cafe.webp" alt="The Salon - Outdoor Dining">
+                <h3>The Salon</h3>
+                <p class="space-description">Al fresco dining in our beautifully landscaped terrace</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="photo-gallery">
+        <h2>Gallery</h2>
+        <p class="gallery-description">A visual journey through our culinary artistry and ambiance</p>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/delicious-meal.webp" alt="Elegant dish presentation">
+                <div class="gallery-overlay">
+                    <p>Culinary Excellence</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/pan-fried-duck.webp" alt="Chef's special creation">
+                <div class="gallery-overlay">
+                    <p>Chef's Specials</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/restaurant-plates.webp" alt="Fine dining experience">
+                <div class="gallery-overlay">
+                    <p>Artistic Presentation</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/enjoying-dinner.webp" alt="Dining ambiance">
+                <div class="gallery-overlay">
+                    <p>Dining Experience</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/woman-consulting-the-restaurant-menu-with-qr-code.webp" alt="Menu consultation">
+                <div class="gallery-overlay">
+                    <p>Personal Service</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/woman-working-at-a-restaurant.webp" alt="Restaurant service">
+                <div class="gallery-overlay">
+                    <p>Professional Staff</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="wine" class="wine-series">
+        <h2>The Manan Wine Collection</h2>
+        <p>Discover our carefully curated selection of exceptional wines, perfectly paired with our menu offerings.</p>
+        <button class="btn-secondary">Explore Wine List</button>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>123 Dining Street<br>Culinary District<br>City, State 12345</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <h3>Hours</h3>
+                    <p>Lunch: 11:30 AM - 2:30 PM<br>Dinner: 6:00 PM - 10:00 PM<br>Closed on Mondays</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Reservations</h3>
+                    <p>Tel: (555) 123-4567<br>Email: reservations@manan.com</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone">
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="newsletter" class="mailing-list">
+        <h2>Stay Connected</h2>
+        <p>Subscribe to our newsletter for special events, new menu items, and exclusive offers</p>
+        <form class="mailing-form">
+            <input type="email" placeholder="Your Email Address" required>
+            <button type="submit" class="btn-primary">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="logo">Manan</div>
+                <p>Elevating dining to an art form</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="#about">About Us</a>
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-hours">
+                <h3>Hours</h3>
+                <p>Lunch: 11:30 AM - 2:30 PM</p>
+                <p>Dinner: 6:00 PM - 10:00 PM</p>
+                <p>Closed on Mondays</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Manan Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
